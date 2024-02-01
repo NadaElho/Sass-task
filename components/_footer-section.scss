@@ -1,0 +1,15 @@
+.footer__content{
+    h3{
+        color: white;
+        margin: 20px 0;
+    }
+    ul{
+        list-style: none;
+        li{
+            color: $pColor;
+            span{
+                color: white;
+            }
+        }
+    }
+}

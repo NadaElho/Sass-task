@@ -1,0 +1,15 @@
+.insurance{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    &__imgs{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        div{
+            text-align: center;
+            width:  calc(100%/3);
+            border: 2px solid $pColor;
+            padding: 20px;
+        }
+    }
+}

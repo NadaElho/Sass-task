@@ -1,0 +1,35 @@
+.doctors{
+    &--row{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    &__header{
+        margin: 10px;
+        display: flex;
+        justify-content: space-between;
+        svg{
+            width: 30px;
+            cursor: pointer;
+        }
+        svg path{
+            fill: $primary !important;
+        }
+        svg:nth-child(1){
+            transform: rotate(180deg);
+            -webkit-transform: rotate(180deg);
+            -moz-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+            -o-transform: rotate(180deg);
+}
+    }
+    &__content{
+        text-align: center;
+    }
+}
+@media (max-width:700px) {
+    .doctors--row{
+        flex-direction: column;
+    }
+}

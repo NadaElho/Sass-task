@@ -1,0 +1,24 @@
+.resources{
+    background-color: $lightGray;
+    &--row{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__content{
+        text-align: center;
+    }
+    p{
+        width: 300px;
+        margin-top: 10px;
+        color: $pColor;
+    }
+    .btn{
+        margin-top: 20px;
+    }
+}
+@media (max-width:700px) {
+    .resources--row{
+        flex-direction: column;
+    }
+}

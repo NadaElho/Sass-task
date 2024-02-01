@@ -1,0 +1,22 @@
+.side {
+  position: fixed;
+  top: 30%;
+  right: 0;
+  width: 100px;
+  height: 400px;
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    div {
+      border-radius: 10px 0 0 10px;
+      background-color: white;
+      text-align: center;
+      padding: 10px;
+      svg
+{
+        width: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+@import "./abstract/variables";
+@import "./abstract/mixins";
+
+@import "./components/card";
+@import "./components/card_img";
+@import "./components/card-img-resource";
+@import "./components/header";
+@import "./components/footer-section";
+@import "./components/buttons";
+
+@import "./layout/container";
+@import "./layout/department";
+@import "./layout/doctors";
+@import "./layout/resources";
+@import "./layout/navbar";
+@import "./layout/landing-page";
+@import "./layout/about";
+@import "./layout/insuranse.scss";
+@import "./layout/quote";
+@import "./layout/footer";
+@import "./layout/side"

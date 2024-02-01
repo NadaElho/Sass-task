@@ -1,0 +1,20 @@
+.department{
+    margin: 30px;
+    background-color: $lightGray;
+    &--row{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    &__content{
+        text-align: center;
+    }
+    .btn{
+        margin-top: 20px;
+    }
+}
+@media (max-width:700px) {
+    .department--row{
+        flex-direction: column;
+    }
+}

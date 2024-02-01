@@ -1,0 +1,12 @@
+.header{
+    padding-bottom: 20px;
+    &__title{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    &__content{
+        color: $pColor;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+}

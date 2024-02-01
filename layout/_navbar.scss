@@ -1,0 +1,26 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img{
+        width: 200px;
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        gap: 10px;
+        font-size: 20px;
+        color: $primary;
+        font-weight: bold;
+        li{
+            padding: 7px;
+            &.active{
+                @include buttonHover($primary, white)
+            }
+            &:hover{
+                @include buttonHover($primary, white)
+            }
+        }
+    }
+}
